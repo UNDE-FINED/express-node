@@ -1,0 +1,27 @@
+{
+  "customBuild": true,
+  "baseURI": "test.zbjdev.com",
+  "TPbaseURI": "test.tp.com",
+  "port": "3110",
+  "pageDomain": "test.zbjdev.com",
+  "appId": "guzhu_crm_4cf6f6d8c2",
+  "projectName": "express-node",
+  "runtime": "test",
+  "apiCommonService": [
+    {
+      "host": "utopiacs.test.zbjdev.com",
+      "port": 80
+    }
+  ],
+  //公共服务api
+  "staticLibURI": "//as.test.zbjdev.com",
+  "qiniuUploadTokenUrl": "//rms.zhubajie.com",
+  "serviceCenterUrl": "zookeeper://vip.dubbo.zookeeper.zbj:2181",
+  "cacheCloudAppID": "10445",
+  "bossAppId": "23592",
+  "bossAppKey": "3CFe3E2nIuW5Duw25YyMjhG0XNGkmBhn",
+  "bossLoginType": "cp-dirlogin",
+  "workbenchId": 46, // 工作台id
+  //  "dubboVersionInfo": "java-crm-workbench-api=hurui",
+  "authCallBack": "/authcallback"
+}
